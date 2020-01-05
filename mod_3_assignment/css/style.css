@@ -1,0 +1,13 @@
+#text-holder {
+	background-color: #999966;
+	border: 3px solid black;
+	margin-bottom: 10px;
+}
+
+#text-large-li p{
+	margin: 20px 8px 10px 8px;
+}
+
+.title-name {
+	margin-bottom: 25px;
+}
