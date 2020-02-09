@@ -5,14 +5,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="Viewport" content="width=device-width, initial-scale=1">
 	<title>LPU Tuck Shop</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-</head>
-<body>
 	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
 
 	<!-- HEADER BEGINS HERE -->
 	<header>
@@ -26,18 +27,18 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a href="index.html" class="navbar-left visible-md visible-lg"><img src="assets/navbar-logo.png"></a>
-		      <a class="navbar-brand MH-a" href="index.html"><span class="MainHeading">LPU TUCK SHOPS</span></a>
+		      <a href="index.html" class="navbar-left visible-lg"><img id="navbar-logo" src="assets/navbar-logo.jpg"></a>
+		      <a class="navbar-brand hidden-lg" id="brand-name-lpu" href="index.html">LPU TUCK SHOPS</a>
 		    </div>
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
-		        <li><a class="li_a" href="index.html"><span class="glyphicon glyphicon-home"></span><br>Home<span class="sr-only">(current)</span></a></li>
-		        <li class="active"><a class="li_a" href="shops.html"><span class="glyphicon glyphicon-shopping-cart"></span><br>Shops</a></li>
-		        <li><a class="li_a" href="items.html"><span class="glyphicon glyphicon-paperclip"></span><br>Items Avl.</a></li>
-		        <li><a class="li_a" href="contact.html"><span class="glyphicon glyphicon-phone-alt"></span><br>Contact</a></li>
-		        <li><a class="li_a" href="feedback.html"><span class="glyphicon glyphicon-envelope"></span><br>Feedback</a></li>
+		        <li class="options-list"><a class="li_a" href="index.html"><span class="glyphicon glyphicon-home"></span><br>Home<span class="sr-only">(current)</span></a></li>
+		        <li class="active options-list"><a class="li_a" href="shops.html"><span class="glyphicon glyphicon-shopping-cart"></span><br>Shops</a></li>
+		        <li class="options-list"><a class="li_a" href="items.html"><span class="glyphicon glyphicon-paperclip"></span><br>Items Avl.</a></li>
+		        <li class="options-list"><a class="li_a" href="contact.html"><span class="glyphicon glyphicon-phone-alt"></span><br>Contact</a></li>
+		        <li class="options-list"><a class="li_a" href="feedback.html"><span class="glyphicon glyphicon-envelope"></span><br>Feedback</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -45,7 +46,24 @@
 	</header>
 	<!-- HEADER ENDS HERE -->
 
-	
+	<!--MAIN BODY STARTS HERE -->
+	<div class="container">
+			<div class="text-info-style">
+				<span id="locate-mark" class="glyphicon glyphicon-map-marker"></span>
+				<h3 style="display: inline;">&nbsp LOCATE ANY STORE NEAR YOUR CURRENT BLOCK.</h3>
+			</div>
+			<div class="input-group block-input widht-i-d">
+      			<input type="text" class="form-control curr-block-input" placeholder="Enter your current block...">
+      			<span class="input-group-btn">
+      			  		<button class="btn btn-default get_near_shop_btn" type="button">Get Store</button>
+      			</span>
+    		</div><!-- /input-group -->
+    		<div id="nearest-block-got" class=></div>
+		</div>
+	</div>
+
+	<!--MAIN BODY ENDS HERE -->
+
 </div>
 </body>
 </html>
