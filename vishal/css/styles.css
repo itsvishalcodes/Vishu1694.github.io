@@ -56,6 +56,14 @@
 	#lpu-bn {
 		font-size: 3rem !important;
 	}
+
+	#brand-name-lpu {
+		margin-top: 0.6rem !important;
+	}
+}
+
+#brand-name-lpu {
+	margin-top: 1rem;
 }
 
 .li_a {
