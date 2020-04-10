@@ -1,0 +1,39 @@
+.notebook {
+	background: url('../../assets/items/notebook.jpg') no-repeat center;
+}
+
+.files {
+	background: url('../../assets/items/files.jpg') no-repeat center;
+}
+
+.Pens {
+	background: url('../../assets/items/pens.jpg') no-repeat center;
+}
+
+.Pages {
+	background: url('../../assets/items/pages.jpg') no-repeat center;
+}
+
+.stapler {
+	background: url('../../assets/items/stapler.jpg') no-repeat center;
+}
+
+.workbook {
+	background: url('../../assets/items/workbooks.jpg') no-repeat center;
+}
+
+.bread {
+	background: url('../../assets/items/breadboard.jpg') no-repeat center;
+}
+
+.pcb {
+	background: url('../../assets/items/PCB.jpg') no-repeat center;
+}
+
+.ic {
+	background: url('../../assets/items/ICs.jpg') no-repeat center;
+}
+
+.mc {
+	background: url('../../assets/items/microcontroller.jpg') no-repeat center;
+}
