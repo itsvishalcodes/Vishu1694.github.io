@@ -135,6 +135,7 @@ body {
 #navbar-logo {
 	width: 525px;
 	height: 80px;
+	background: url('../assets/navbar-logo.jpg');
 }
 
 .navbar-default {
