@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -16,7 +17,7 @@
 	<script type="text/javascript" src="js/script-feed.js"></script>
 
 	<header>
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default" id="navbar-id-lpu">
 		  <div class="container">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
@@ -26,8 +27,8 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <!--<a href="index.html" class="navbar-left hidden-lg"><div id="navbar-logo"></div></a>-->
-		      <a class="navbar-brand" id="brand-name-lpu" href="index.html"><span id="lpu-bn" style="font-size: 4vw;">LPU TUCK SHOPS</span></a>
+		      <a href="index.html" class="navbar-left visible-xs visible-sm visible-md visible-lg"><div id="navbar-logo"></div></a>
+		      <a class="navbar-brand hidden-xs hidden-sm hidden-md hidden-lg" id="brand-name-lpu" href="index.html"><span id="lpu-bn" style="font-size: 4vw;">LPU TUCK SHOPS</span></a>
 		    </div>
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -47,44 +48,20 @@
 
 	<div class="main-body">
 		<div class="container">
-
-			<div class="border-feed">
-				<span class="glyphicon glyphicon-envelope"><p>Please fill the form below and click submit to submit your valuable feedback</p></span>
-				<div style="margin-bottom: 4rem;">
-					<div class="col-xs-3">
-						Name:
+			<div class="pull-right col-md-6 col-xs-12 feedback-vector-img">
+				<img src="assets/feedback-vector-img.png" class="img-responsive">
+			</div>
+			<div class="feedback-form pull-right col-md-6 col-xs-12" style="background: transparent;">
+				<div><strong>We would love to hear about our shops</strong></div>
+				<form class="feedback">
+					<input type="text" placeholder="Name" name="Name">
+					<input type="text" placeholder="Your E-Mail" name="mail">
+					<input type="text" placeholder="Block (Eg: 38)" name="block">
+					<input type="text" placeholder="Your valuable feedback" name="feedback">
+					<div class="submit-btn" style="width: 50%; margin: 1rem auto 1rem;">
+	   					<a class="btn btn-primary btn-lg" style="width: 100%;" role="button">Submit</a>
 					</div>
-					<div class="col-xs-9">
-						<input name="fillit" type="text" style="width: 100%;" placeholder="Your name...">
-					</div>
-				</div>
-				<div style="margin-bottom: 8rem;">
-					<div class="col-xs-3">
-						Mail:
-					</div>
-					<div class="col-xs-9">
-						<input name="fillit" type="text" style="width: 100%;" placeholder="Your E-Mail...">
-					</div>
-				</div>
-				<div style="margin-bottom: 12rem;">
-					<div class="col-xs-3">
-						Block:
-					</div>
-					<div class="col-xs-9">
-						<input name="fillit" type="text" style="width: 100%;" placeholder="Block of Tuckshop...">
-					</div>
-				</div>
-				<div style="margin-bottom: 4rem;">
-					<div class="col-xs-3">
-						Feedback:
-					</div>
-					<div class="col-xs-9">
-						<input name="fillit" type="text" style="width: 100%; height: 6rem;" placeholder="Your feedback...">
-					</div>
-				</div>
-				<div class="submit-btn" style="width: 50%; margin: 4rem auto 1rem;">
-	   			<a class="btn btn-primary btn-lg" style="width: 100%; margin-top: 1.5rem;" role="button">Send</a>
-				</div>
+				</form>
 			</div>
 		</div>
 	</div>
@@ -96,7 +73,7 @@
 				<h3>ABOUT PROJECT</h3>
 				<p>This project about LPU Tuck Shops provided us with alot
 				 of opportunities to learn new things as a web developer. We as a team worked great. 
-				 Team members included:  </p>
+				 Team members included:  </p> 
 				<p>1> Vishal Tiwari(59) - 11910547 (Project Leader)</p>
 				<p>2> Himanshu Yadav(58) - </p>
 				<p>3> Yashwanth(60) - </p>

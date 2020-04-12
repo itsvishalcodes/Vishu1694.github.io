@@ -17,7 +17,7 @@
 	<script type="text/javascript" src="js/script.js"></script>
 
 	<header>
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default" id="navbar-id-lpu">
 		  <div class="container">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
@@ -27,8 +27,8 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <!--<a href="index.html" class="navbar-left hidden-lg"><div id="navbar-logo"></div></a>-->
-		      <a class="navbar-brand" id="brand-name-lpu" href="index.html"><span id="lpu-bn" style="font-size: 4vw;">LPU TUCK SHOPS</span></a>
+		      <a href="index.html" class="navbar-left visible-xs visible-sm visible-md visible-lg"><div id="navbar-logo"></div></a>
+		      <a class="navbar-brand hidden-xs hidden-sm hidden-md hidden-lg" id="brand-name-lpu" href="index.html"><span id="lpu-bn" style="font-size: 4vw;">LPU TUCK SHOPS</span></a>
 		    </div>
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -36,9 +36,9 @@
 		      <ul class="nav navbar-nav">
 		        <li><a class="li_a" href="index.html"><span class="glyphicon glyphicon-home"></span><br>Home</a></li>
 		        <li><a class="li_a" href="shops.html"><span class="glyphicon glyphicon-shopping-cart"></span><br>Shops</a></li>
-		        <li class="active"><a class="li_a" href="items.html"><span class="glyphicon glyphicon-paperclip"></span><br>Items Avl.<span class="sr-only">(current)</span></a></li>
+		        <li class="active"><a class="li_a" href="items.html"><span class="glyphicon glyphicon-paperclip"></span><br>Items Avl.</a></li>
 		        <li><a class="li_a" href="contact.html"><span class="glyphicon glyphicon-phone-alt"></span><br>Contact</a></li>
-		        <li><a class="li_a" href="feedback.html"><span class="glyphicon glyphicon-envelope"></span><br>Feedback</a></li>
+		        <li><a class="li_a" href="feedback.html"><span class="glyphicon glyphicon-envelope"></span><br>Feedback<span class="sr-only">(current)</span></a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -47,10 +47,16 @@
 
 	<div class="main-body">
 		<div class="container">
-			<div class="item-heading">
+			<div class="shops-intro">
+				<h1>Wanna know what items we sell?</h1>
+				<h3>Below we have included the most frequent items we sell<br>Apart from them, we have hundreds of other items. Do visit us once to know more.</h3>
+			</div>
+			<div style="background-color: #E8DFF2; border-radius: 3px;">
+			<div style="padding: 0px 14px;">
+			<div class="item-heading" style="margin-top: 4rem;">
 				STATIONARY:
 			</div>
-			<div rows>
+			<div class="row">
 				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 pull-left pos-rel">
 					<div class="tiles-item notebook img-responsive"></div>
 					<span class="tile-name">Notebook</span>
@@ -79,7 +85,7 @@
 			<div class="item-heading">
 				ELECTRONICS:
 			</div>
-			<div class="rows">
+			<div class="row">
 				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 pull-left pos-rel">
 					<div class="tiles-item bread img-responsive"></div>
 					<span class="tile-name">BreadBoard</span>
@@ -95,15 +101,30 @@
 				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 pull-left pos-rel">
 					<div class="tiles-item mc img-responsive"></div>
 					<span class="tile-name">MicroController</span>
-				</div><div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 pull-left pos-rel">
-					<div class="tiles-item img-responsive"></div>
-					<span class="tile-name"></span>
-				</div><div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 pull-left pos-rel">
-					<div class="tiles-item img-responsive"></div>
-					<span class="tile-name"></span>
+			</div>
+			</div>
+			<div class="item-heading">
+				MISC.
+			</div>
+			<div class="row">
+				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 pull-left pos-rel">
+					<div class="tiles-item choco img-responsive"></div>
+					<span class="tile-name">Chocolates</span>
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 pull-left pos-rel">
+					<div class="tiles-item grids img-responsive"></div>
+					<span class="tile-name">Gridsheets</span>
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 pull-left pos-rel">
+					<div class="tiles-item arch img-responsive"></div>
+					<span class="tile-name">Architecture Sheets</span>
 				</div>
 			</div>
+			</div>
 		</div>
+			<div style="margin: 3rem auto 3rem; width: 100%;">
+				<h1 style="text-align: center; font-family: 'Baloo Paaji 2', cursive;">ANY MANY MORE......</h1>
+			</div>
 	</div>
 
 

@@ -10,12 +10,36 @@
 	text-decoration: none;
 }
 
+@media (max-width: 991px) {
+	.feedback {
+		width: 100%;
+	}
+
+	#intro-parent {
+		background: url('../assets/homepage-vector-img-mobile.png') center no-repeat;
+	}
+}
+
 @media (min-width: 992px) {
 	.MH-a {
 		margin: 65px 0px 10px 5px;
 	}
+
+	.feedback {
+		width: 60%;
+	}
 }
 
+.intro-homepage {
+	font-family: 'Baloo Paaji 2', cursive;
+	font-size: 6rem;
+}
+
+.intro-homepage-sec {
+	font-family: 'Baloo Paaji 2', cursive;
+	font-size: 2rem;
+	margin-bottom: 5rem;
+}
 
 #img-notebook {
 	background: url('../assets/body-bg.png');
@@ -78,6 +102,7 @@
 
 .block-input {
 	margin-top: 5rem;
+	padding-bottom: 3rem;
 	top: 50%;
 }
 
@@ -141,13 +166,14 @@ body {
 
 .container-loc {
 	background-color: #E8DFF2;
-	border-radius: 5% 40%;
+	border-radius: 7px;
+	margin-bottom: 4rem;
 }
 
 #navbar-logo {
-	width: 525px;
-	height: 80px;
-	background: url('../assets/navbar-logo.jpg');
+	width: 260px;
+	height: 100px;
+	background: url('../assets/navbar-logo.png');
 }
 
 .navbar-default {
@@ -157,40 +183,83 @@ body {
 .text-info-style {
 	text-align: center;
 	margin-top: 5rem;
+	padding-top: 2rem;
 }
 
-.border-feed {
-	margin: 1px auto 1px;
-	border: 1px solid black;
-	border-radius: 10%;
+
+.feedback-form {
+	margin-top: 4rem;
+}
+
+.feedback-form > div {
+	font-size: 3rem;
+	font-family: 'Baloo Paaji 2', cursive;
+}
+
+.feedback {
+	padding-top: 5rem;
+}
+
+.feedback-vector-img {
+	background: transparent;
+}
+
+.feedback > input {
+	width: 100%;
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: black;
+	height:3.5rem;
+	background: transparent;
+	margin-bottom: 3rem;
+	display: block;
+}
+
+.shops-intro {
+	font-family: 'Baloo Paaji 2', cursive;
+	text-align: center;
 }
 
 .item-heading {
 	font-size: 2.8rem;
-	margin-bottom: 1rem;
+	font-family: 'Baloo Paaji 2', cursive;
 	text-decoration: underline;
+	width: 100%;
+	margin: 1rem auto 3rem;
+	text-align: center;
 }
 
 .info-shops {
 	width: 50%;
 	margin-left: 25%;
 	margin-top: 5rem;
+	padding-bottom: 2rem;
 }
 
 .tiles-item {
 	width: 100%;
 	height: 12rem;
-	border-radius: 5px;
+	border-radius: 10%;
+	transition: opacity 0.5s;
+}
+
+.tiles-item:hover {
+	opacity: 0.5;
+}
+
+.li_a:hover {
+	color: blue;
 }
 
 .tiles {
 	width: 100%;
 	height: 18rem;
 	border-radius: 10%;
+	transition: opacity 0.5s;
 }
 
 .tiles:hover {
-	border: 4px solid green;
+	opacity: 0.4;
 }
 
 .shops-tile {
@@ -222,7 +291,7 @@ body {
 
 
 .info-container {
-	background-color: #99E3E1;
+	background-color: #fff;
 	border-radius: 5rem;
 	margin: 9px 0;
 }

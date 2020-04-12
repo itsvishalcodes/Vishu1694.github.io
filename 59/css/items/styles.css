@@ -37,3 +37,15 @@
 .mc {
 	background: url('../../assets/items/microcontroller.jpg') no-repeat center;
 }
+
+.choco {
+	background: url('../../assets/items/chocolates.jpg') no-repeat center;
+}
+
+.grids {
+background: url('../../assets/items/grid-sheets.jpg') no-repeat center;
+}
+
+.arch {
+background: url('../../assets/items/arch-sheets.jpg') no-repeat center;
+}
